@@ -1,0 +1,311 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    font-family: "Poppins", sans-serif;
+  }
+
+  .fontSG{
+    font-family: "Space Grotesk", sans-serif;
+  }
+.Marcellus{
+  font-family: "Marcellus", serif;
+}
+.inter{
+  font-family: "Inter", sans-serif;
+} 
+.roboto{
+  font-family: "Roboto", sans-serif;
+}
+
+
+ 
+
+nav{
+    background-color: #EDE7D9;
+}
+.boxshadow{
+  box-shadow:-8px 8px 0px 0px #192533;
+  padding: 25px 30px 0px 30px;
+}
+
+.boxshadowtechno{
+  box-shadow: -4px 4px 0px 0px;
+}
+/* .containerslider{
+  display: inline-block;
+} */
+ /* .text{
+  display: inline-block;
+ } */
+ .text p{
+  /* font-size: 5rem; */
+  letter-spacing: 1px;
+  border-right: 1px solid ;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  animation: typing 2s steps(15), cursor .4s step-end infinite alternate;
+}
+
+@keyframes cursor {
+  50%{border-color: transparent;}
+}
+
+@keyframes typing {
+  from{
+    width: 0;
+  }
+}
+.bordered-paragraph {
+  position: relative;
+  padding: 20px; /* Adjust padding as needed */
+  text-align: center; /* Center the text */
+  max-width: 800px; /* Adjust the max width */
+  margin: 0 auto; /* Center the paragraph */
+  background-color: #EDE7D9 ; /* Optional background color, adjust as needed */
+}
+
+/* Left and right borders */
+.bordered-paragraph::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 10px;
+  height: 100%;
+  border-left: 1px solid black; /* Left border */
+  border-bottom: 1px solid black; /* Bottom left line */
+  border-top: 1px solid black;
+}
+
+.bordered-paragraph::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 10px;
+  height: 100%;
+  border-right: 1px solid black; /* Right border */
+  border-bottom: 1px solid black; /* Bottom right line */
+  border-top: 1px solid black ;
+}
+
+
+
+
+
+
+ul li a{
+    color: #193451;
+}
+
+ul button{
+    background-color: #419586;
+    color: #EDE7D9;
+}
+.box-shadow{
+    box-shadow: -8px 8px 0px 0px black;
+}
+input{
+    background-color: #EDE7D9;
+}
+.item .next{
+    box-shadow: -8px 8px 0px -2px black;
+    border: 1px solid;
+    border-radius: 2px;
+    padding: 10%;
+}
+.OTPbanner1 .owl-carousel .owl-item img{
+  width: 30px !important;
+}
+
+
+.OTPbanner .owl-item {
+  width: 100px !important; /* Forces the width to 100px */
+}
+.next1{
+    box-shadow: -6px -6px 0px -1px black;
+    border: 1px solid;
+    border-radius: 2px;
+    padding: 10%;
+}
+
+.OTPbanner1 .owl-item{
+  width: 100%;
+}
+/* .after h1::after{
+    content: "";
+    position: absolute;
+    width: 135px;
+    height: 2px;
+    background-color: red;
+    top: 45px;
+    right: 45%;
+
+} */
+.card-footer{
+    box-shadow: -5px 5px 0px 0px black;
+}
+
+/* .item{
+    box-shadow: -8px 12px 0px 0px black;
+}
+.globalshyp{
+    box-shadow: -7px 26px 0px 0px black;
+} */
+ .owl-carousel {
+    display: block;
+ }
+
+
+
+ /* typewriter start */
+
+
+ #typewriter {
+  white-space: pre-wrap; /* Keeps line breaks */
+  overflow: hidden; /* Hides overflowing content */
+  /* border-right: 2px solid white; Cursor effect */
+  animation: blink 0.7s infinite step-end;
+}
+
+@keyframes blink {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: white;
+  }
+}
+
+#typewriter1, #typewriter2, #typewriter3, #typewriter4, #typewriter5 {
+  white-space: pre-wrap;
+  overflow: hidden;
+  width: 100%; /* Adjust to fit the content */
+  border-right: 0px;
+}
+
+
+.box1{
+  animation: box1 4s linear infinite;
+}
+
+@keyframes box1 {
+  0%{
+    transform: scale(1);
+  }
+ 
+  50%{
+    transform: scale(1.1);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+.icon:hover{
+background-color: #C46060;
+transition: .4s;
+}
+
+.cup{
+  animation: cup 4s linear infinite;
+}
+
+@keyframes cup{
+0%{
+  transform: scale(1);
+}
+50%{
+  transform: scale(1.1);
+}
+}
+
+.line{
+  animation: line 4s linear infinite;
+}
+@keyframes line {
+  0%{
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.1);
+  }
+}
+ /* #app {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  font-size: 3rem;
+  text-align: left;
+  color: #f9f9f9;
+}  */
+/* body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  place-items: center;
+  place-content: center;
+  background: #111111;
+} */
+
+ /* typewriter end */
+
+
+ .tracking{
+  letter-spacing: 1px;
+ }
+
+ .workshadow{
+  box-shadow: -8px 10px 0px 0px;
+  width: 90%;
+ }
+
+ .technoletter{
+  letter-spacing: 3px;
+ }
+ .bordered-paragraphtechno {
+  position: relative;
+  padding: 10px; /* Adjust padding as needed */
+  /* text-align: center; Center the text */
+  max-width: 800px; /* Adjust the max width */
+  margin: 0 auto; /* Center the paragraph */
+  background-color: #EDE7D9 ; /* Optional background color, adjust as needed */
+}
+
+/* Left and right borders */
+.bordered-paragraphtechno::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 10px;
+  height: 100%;
+  border-left: 1px solid #C46060; /* Left border */
+  border-bottom: 1px solid #C46060; /* Bottom left line */
+  border-top: 1px solid #C46060;
+}
+
+.bordered-paragraphtechno::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 10px;
+  height: 100%;
+  border-right: 1px solid #C46060; /* Right border */
+  border-bottom: 1px solid #C46060; /* Bottom right line */
+  border-top: 1px solid #C46060 ;
+}
+
+
+.technoletterp{
+  letter-spacing: 2px;
+}
+
+.active:active{
+  color: #419586;
+}
+.zoom:hover{
+  transform: scale(1.1);
+  transition: .8s;
+}
